@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=1024">
+		<title>Facebook Feed Share Tool</title>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/facebookShare.js"></script>
+		
+<style type="text/css">
+body {
+	
+	font: 14px/24px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #1A294B;
+}
+
+
+form {
+	width: 305px;
+	padding:14px 10px 10px 29px;
+	
+	background-color: #DBE8F9;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+label{
+	display:block;
+	text-align:left;
+	width:170px;
+	margin-top:10px;
+}
+
+.btn {
+	text-decoration:none;
+	color:#224;
+	width: 230px;
+	text-align:center;
+	display:block;
+	background: #def;
+	padding: 7px;
+	margin:10px;
+	clear: both;
+	font: 16px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: 2px solid #8595B2;
+		-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+} 
+
+input {
+	background-color: #fff;
+	width: 250px;
+	font: 14px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5A698B;
+	margin: 6px 0 5px 9px;
+	padding: 1px;
+	border: 1px solid #8595B2;
+	
+}
+
+.textarea {
+	border: 1px solid #8595B2;
+	background-color: #fff;
+	font: 14px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5A698B;
+	margin: 4px 0 5px 6px;
+}
+#fbResult{
+	width:270px;
+	height:90px;
+	background-color: #efeff0;
+	word-wrap: break-word;
+	padding:5px;
+	margin-top:8px;
+	border: 1px solid #8595B2;
+	
+}
+
+</style>
+
+	</head>
+	<body>	
+	<form name="fbShareForm" >
+		<label for="appId">*appID: </label><input type='text' name='appId' /><br />
+		<label for="link">*link: </label><input type='text'  value="http://"  name='link' /><br />
+		<label for="">picture: </label><input type='text'  value="http://"  name='picture' /><br />
+		<label for="">title: </label><input type='text' name='title' /><br />
+		<label for="">caption: </label><input type='text' name='caption' /><br />
+		<label for="">description: <textarea cols="30" class="textarea" rows="4" name="description"  ></textarea><br />
+		<label for="">redirect: </label><input type='text'  value="http://"  name='redirect' /><br />
+		<br />
+		<a href="javascript: generateFacebookShare()" class="btn">Genereate Share Link</a>
+	</form>
+	<div id="fbResult">
+	...
+	</div>
+	
+	
+
+	
+	
+	</body>
+</html>
