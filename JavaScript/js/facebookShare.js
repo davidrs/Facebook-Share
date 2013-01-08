@@ -38,3 +38,8 @@ $("#fbResult").html('<a href="'+$finalString+'" target="_blank">'+$finalString+'
 	
 	//return false;
 }
+	
+$(document).ready(function(){
+});
+
+
