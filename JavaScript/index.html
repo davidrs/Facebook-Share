@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=1024">
 		<title>Facebook Feed Share Tool</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-		<script type="text/javascript" src="js/facebookShare.js"></script>
+		<script type="text/javascript" src="js/socialShare.js"></script>
 		
 <style type="text/css">
 body {
@@ -66,7 +66,7 @@ input {
 	color: #5A698B;
 	margin: 4px 0 5px 6px;
 }
-#fbResult{
+#socialResult{
 	width:270px;
 	background-color: #efeff0;
 	word-wrap: break-word;
@@ -89,9 +89,9 @@ input {
 		<label for="description">description: <textarea cols="30" class="textarea" rows="4" name="description"  ></textarea><br />
 		<label for="redirect">redirect: </label><input type='text'  value="http://"  name='redirect' /><br />
 		<br />
-		<a href="javascript: generateFacebookShare()" class="btn">Generate Share Link</a>
+		<a href="javascript: generateSocialShare()" class="btn">Generate Share Link</a>
 	</form>
-	<div id="fbResult">
+	<div id="socialResult">
 	...
 	</div>
 	
