@@ -1,7 +1,7 @@
 Facebook-Share
 ==============
 
-JavaScript and PHP code for URL builder for Facebook Share link
+JavaScript and PHP code for URL builder for Facebook Share link and Twitter Tweet link
 
 Please feel free to remix, re-use, and modify as you wish.
 
