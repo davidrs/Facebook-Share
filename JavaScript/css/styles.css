@@ -1,0 +1,67 @@
+body {
+	
+	font: 14px/24px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #1A294B;
+}
+
+
+form {
+	width: 305px;
+	padding:14px 10px 10px 29px;
+	
+	background-color: #DBE8F9;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+label{
+	display:block;
+	text-align:left;
+	width:170px;
+	margin-top:10px;
+}
+
+.btn {
+	text-decoration:none;
+	color:#224;
+	width: 230px;
+	text-align:center;
+	display:block;
+	background: #def;
+	padding: 7px;
+	margin:10px;
+	clear: both;
+	font: 16px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: 2px solid #8595B2;
+		-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+} 
+
+input {
+	background-color: #fff;
+	width: 250px;
+	font: 14px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5A698B;
+	margin: 6px 0 5px 9px;
+	padding: 1px;
+	border: 1px solid #8595B2;
+	
+}
+
+.textarea {
+	border: 1px solid #8595B2;
+	background-color: #fff;
+	font: 14px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5A698B;
+	margin: 4px 0 5px 6px;
+}
+#socialResult{
+	width:270px;
+	background-color: #efeff0;
+	word-wrap: break-word;
+	padding:5px;
+	margin-top:8px;
+	border: 1px solid #8595B2;
+	
+}
